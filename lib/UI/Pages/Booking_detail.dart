@@ -215,58 +215,55 @@ class BookingDetails extends StatelessWidget {
                               ],
                             ),
                           ),
-                          if (false)
-                            const Padding(
-                              padding: EdgeInsets.only(top: 20),
-                              child: Text(
-                                "Meals Details",
-                                style: TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.grey,
-                                    fontWeight: FontWeight.w600),
-                              ),
+                          const Padding(
+                            padding: EdgeInsets.only(top: 20),
+                            child: Text(
+                              "Meals Details",
+                              style: TextStyle(
+                                  fontSize: 18,
+                                  color: Colors.grey,
+                                  fontWeight: FontWeight.w600),
                             ),
-                          if (false)
-                            Card(
-                              child: Padding(
-                                padding: const EdgeInsets.all(15.0),
-                                child: SizedBox(
-                                  height: 70,
-                                  child: Row(
-                                    mainAxisAlignment: MainAxisAlignment.start,
-                                    crossAxisAlignment:
-                                        CrossAxisAlignment.start,
-                                    children: [
-                                      SizedBox(
-                                        width: 100,
-                                        child: Image.network(
-                                            "https://images.healthshots.com/healthshots/en/uploads/2022/07/25101436/breakfast1.jpg"),
-                                      ),
-                                      const SizedBox(
-                                        width: 20,
-                                      ),
-                                      Column(
-                                        children: [
-                                          Text(
-                                            "Breakfast",
-                                            style: boldStyle,
-                                          ),
-                                          Text(
-                                            "Indian Menu",
-                                            style: style,
-                                          ),
-                                        ],
-                                      ),
-                                      const Spacer(),
-                                      Text(
-                                        "₹ 80.00",
-                                        style: boldStyle,
-                                      ),
-                                    ],
-                                  ),
+                          ),
+                          Card(
+                            child: Padding(
+                              padding: const EdgeInsets.all(15.0),
+                              child: SizedBox(
+                                height: 70,
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    SizedBox(
+                                      width: 100,
+                                      child: Image.network(
+                                          "https://images.healthshots.com/healthshots/en/uploads/2022/07/25101436/breakfast1.jpg"),
+                                    ),
+                                    const SizedBox(
+                                      width: 20,
+                                    ),
+                                    Column(
+                                      children: [
+                                        Text(
+                                          "Breakfast",
+                                          style: boldStyle,
+                                        ),
+                                        Text(
+                                          "Indian Menu",
+                                          style: style,
+                                        ),
+                                      ],
+                                    ),
+                                    const Spacer(),
+                                    Text(
+                                      "₹ 80.00",
+                                      style: boldStyle,
+                                    ),
+                                  ],
                                 ),
                               ),
                             ),
+                          ),
                           const Padding(
                             padding: EdgeInsets.only(top: 20),
                             child: Text(
